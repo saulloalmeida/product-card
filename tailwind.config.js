@@ -9,7 +9,16 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily:{
+        crimson: ['var(--font-crimson)'],
+        lato: ['var(--font-lato)'],
+      },
+      colors:{
+        rose: "#D9CDF7",
+        myBlue:"#271A45"
+      }
+    },
   },
   plugins: [],
 }
